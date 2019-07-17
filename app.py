@@ -16,8 +16,14 @@ def home():
 		"homepage.html"
 	)
 
-@app.route('/portfolio')
-def portfolio():
+# @app.route('/portfolio')
+# def portfolio():
+# 	return render_template(
+# 		"portfolio.html"
+# 	)
+
+@app.route('/car')
+def car():
 	return render_template(
-		"portfolio.html"
+		"car.html"
 	)

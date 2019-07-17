@@ -11,8 +11,30 @@
 }
 
 .main {
-  padding: 50px;
+  padding: 45px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 21px;
+}
+
+.column {
+  object-fit: cover;
+  float: left;
+  height: 340px;
+  width: 33.33%;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.column-50 {
+  object-fit: cover;
+  float: left;
+  height: 410px;
+  width: 50%;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.row-top {
+  margin-top:45px;
 }
