@@ -1,11 +1,7 @@
 .opaque-text-block {
-  /* margin-bottom: 0px; */
   width: 100%;
   height: 100%;
-  /* background-size: cover;
-    overflow: hidden; */
   background: rgba(233, 236, 239, 0.85);
-  /* position: relative; */
   padding: 25px;
   border-radius: 0.3rem;
 }
