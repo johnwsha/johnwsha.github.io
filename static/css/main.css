@@ -14,16 +14,16 @@
 }
 
 .column {
-  float: left;
+  /* float: left; */
   display: inline-block;
-  height: 340px;
-  width: 33.33%;
+  height: 330px;
+  width: 32.9%;
   overflow: hidden;
   padding: 5px;
 }
 
 .column-50 {
-  float: left;
+  /* float: left; */
   display: inline-block;
   height: 410px;
   width: 50%;
