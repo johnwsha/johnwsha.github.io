@@ -14,8 +14,8 @@
 }
 
 .column {
-  /* float: left; */
-  display: inline-block;
+  float: left;
+  /* display: inline-block; */
   vertical-align: top;
   height: 330px;
   width: 32.9%;
