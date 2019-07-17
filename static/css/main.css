@@ -14,6 +14,7 @@
 }
 
 .column {
+  position: relative;
   object-fit: cover;
   float: left;
   height: 340px;
@@ -23,6 +24,7 @@
 }
 
 .column-50 {
+  position: relative;
   object-fit: cover;
   float: left;
   height: 410px;
