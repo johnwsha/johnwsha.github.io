@@ -15,6 +15,7 @@
 
 .column {
   float: left;
+  display: inline-block;
   height: 340px;
   width: 33.33%;
   overflow: hidden;
@@ -23,6 +24,7 @@
 
 .column-50 {
   float: left;
+  display: inline-block;
   height: 410px;
   width: 50%;
   overflow: hidden;
