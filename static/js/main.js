@@ -10,4 +10,6 @@ $(document).ready(function() {
       window.location.href = "home";
     }, time);
   });
+
+  $('[data-toggle="tooltip"]').tooltip();
 });
