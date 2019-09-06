@@ -38,6 +38,7 @@
 
 .off-white {
   background-color: #f5f5f5;
+  background: linear-gradient(to right, #e9eff5, #f5f5f5);
 }
 
 .column {
@@ -48,6 +49,7 @@
   width: 32.9%;
   overflow: hidden;
   padding: 5px;
+  margin-bottom: 50px;
 }
 
 .column-50 {
