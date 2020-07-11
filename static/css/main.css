@@ -8,18 +8,14 @@
 
 @media (min-width: 550px) {
   .container {
-    width: 63%;
+    width: 65%;
     right: 50px;
     margin-top: 5%;
   }
 }
 
-.font {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-}
-
 .main {
+  font-family: 'Raleway', sans-serif;
   padding: 45px;
   font-size: 18px;
 }
