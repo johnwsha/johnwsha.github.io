@@ -2,43 +2,28 @@
 {% block content %}
 
 <body>
-  <div class="main font">
-    <p id="hello">
-      <font size="6">Hi!</font> I'm John, a senior at UC Berkeley studying Data Science. Currently, I'm looking for full-time
-      opportunities.
-    </p>
-
-    <p id="summer">
-      This summer, I was a Software Engineering Intern at <a href="https://www.ooma.com/">Ooma</a>. This fall, I am working remotely and
-      part-time for Ooma while being a full-time student.
-      <br>
-      Previously, I was at <a href="http://www.finelite.com/home/">Finelite</a> as a Mechanical Engineering Intern.
-    </p>
-
-    <p id="hobbies">
-      I love tinkering -- check out my <a href="http://www.bit.ly/johnsha">portfolio</a> for some projects I've worked on.
-      <br>
-      In my free time I love to work on my <a href="/car">car</a>, cruise along scenic routes, and push it at the racetrack!
-      <br>
-      Also check out <a href="https://fsae.berkeley.edu/">Berkeley's FSAE team</a>; I was a part of the organization for 3 years
-      (subsystem lead for 1) on the engine subsystem and learned a ton about mechanical design, 3D modeling, and leading a team.
-    </p>
-  </div>
-
-  <div class="row-top">
-    <div class="column">
-      <img src="https://i.imgur.com/BBtac0x.jpg" alt="John" style="width:100%">
-    </div>
-    <div class="column">
-      <!-- <img src="https://i.imgur.com/fiGOWj1.jpg" alt="Shifter" style="width:100%"> -->
-      <p>
-        <a href="/car">
-          <img src="https://i.imgur.com/WbKzlGX.jpg" alt="Racetrack" style="width:100%">
+  <div class="container">
+    <div class="main font">
+      <p id="it me">
+        <a class="name" href="{{ url_for('static', filename='John_Sha_Resume.pdf') }}">
+          <font size="6">
+            John Sha
+          </font>
         </a>
       </p>
-    </div>
-    <div class="column">
-      <img src="https://i.imgur.com/OKVoapt.jpg" alt="FSAE" style="width:100%">
+
+      <p id="incoming">
+        Incoming Software Development Engineer @ Amazon
+      </p>
+
+      <p id="previously">
+        Previously, I was a Software Engineering Intern at <a href="https://www.ooma.com/">Ooma</a> and
+        a Mechanical Engineering Intern at <a href="http://www.finelite.com/home/">Finelite</a>.
+      </p>
+
+      <p id="hobbies">
+        In my free time I love to work on my car, play video games with friends, find new music, and watch food videos!
+      </p>
     </div>
   </div>
 </body>
