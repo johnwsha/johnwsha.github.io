@@ -27,6 +27,11 @@
 
 .name {
   color: black;
+  font-size: 32px;
+}
+
+.hidden {
+  color: #e3e3e3;
 }
 
 a {
@@ -50,5 +55,9 @@ a:hover {
 @media only screen and (max-width: 600px) {
   .main {
     font-size: 13px;
+  }
+
+  .name{
+    font-size: 24px;
   }
 }
